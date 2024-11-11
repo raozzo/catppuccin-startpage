@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "personale",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
@@ -103,8 +103,8 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      name: "UNI",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
           name: "resources",
@@ -130,31 +130,25 @@ const default_config = {
           ],
         },
         {
-          name: "challenges",
+          name: "Università",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
+              name: "Gmail",
+              url: "https://www.gmail.com",
               icon: "brain",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
+              name: "Stem",
+              url: "https://stem.elearning.unipd.it/",
               icon: "code-plus",
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
+              name: "Uniweb",
+              url: "https://uniweb.unipd.it/Root.do",
               icon: "code-minus",
               icon_color: palette.red,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.blue,
             },
           ],
         },
